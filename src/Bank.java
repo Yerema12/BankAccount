@@ -1,8 +1,8 @@
 public class Bank {
     private String bankName;
 
-    public Bank(String bankName) {
-        this.bankName = bankName;
+    public Bank(String bankAty) {
+        bankName = bankAty;
     }
 
     public String getBankName() {
@@ -13,3 +13,4 @@ public class Bank {
         System.out.println(bankName + " - " + customer);
     }
 }
+
