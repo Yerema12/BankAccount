@@ -11,7 +11,7 @@ public class BankAccount {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
+    public void setAccountNumber(String accnum) {
         accountNumber = accnum;
     }
 
@@ -40,5 +40,6 @@ public class BankAccount {
         return "Account Number: " + accountNumber + ", Balance: " + balance;
     }
 }
+
 
 
