@@ -12,15 +12,15 @@ public class BankAccount {
     }
 
     public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
+        accountNumber = accnum;
     }
 
     public double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
+    public void setBalance(double balik) {
+        balance = balik;
     }
 
     public void deposit(double amount) {
@@ -40,4 +40,5 @@ public class BankAccount {
         return "Account Number: " + accountNumber + ", Balance: " + balance;
     }
 }
+
 
