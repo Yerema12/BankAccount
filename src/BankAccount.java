@@ -2,9 +2,9 @@ public class BankAccount {
     private String accountNumber;
     private double balance;
 
-    public BankAccount(String accountNumber, double balance) {
-        this.accountNumber = accountNumber;
-        this.balance = balance;
+    public BankAccount(String accnum, double balik) {
+        accountNumber = accnum;
+        balance = balik;
     }
 
     public String getAccountNumber() {
@@ -40,3 +40,4 @@ public class BankAccount {
         return "Account Number: " + accountNumber + ", Balance: " + balance;
     }
 }
+
