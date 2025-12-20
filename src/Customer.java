@@ -2,9 +2,9 @@ public class Customer {
     private String name;
     private BankAccount account;
 
-    public Customer(String name, BankAccount account) {
-        this.name = name;
-        this.account = account;
+    public Customer(String aty, BankAccount akk) {
+        name = aty;
+        account = akk;
     }
 
     public String getName() {
@@ -20,3 +20,4 @@ public class Customer {
         return "Customer: " + name + ", " + account;
     }
 }
+
