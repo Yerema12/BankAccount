@@ -6,7 +6,7 @@ public class Main {
         Customer customer1 = new Customer("Ayan", account1);
         Customer customer2 = new Customer("Dias", account2);
 
-        Bank bank = new Bank("National Bank");
+        Bank bank = new Bank("Kaspi bank");
 
         bank.showCustomer(customer1);
         bank.showCustomer(customer2);
